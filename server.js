@@ -53,7 +53,7 @@ wsServer.on('connect', function (connection) {
 });
 
 //Lets start our server
-server.listen(8000, function () {
+server.listen(80, function () {
     //Callback triggered when server is successfully listening. Hurray!
-    console.log("Server listening on: http://localhost:%s", 8000);
+    console.log("Server listening on: http://localhost:%s", 80);
 });
